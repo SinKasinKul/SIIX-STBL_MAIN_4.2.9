@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Databarcode" msprop:Generator_TableClassName="DatabarcodeDataTable" msprop:Generator_TableVarName="tableDatabarcode" msprop:Generator_RowChangedName="DatabarcodeRowChanged" msprop:Generator_TablePropName="Databarcode" msprop:Generator_RowDeletingName="DatabarcodeRowDeleting" msprop:Generator_RowChangingName="DatabarcodeRowChanging" msprop:Generator_RowEvHandlerName="DatabarcodeRowChangeEventHandler" msprop:Generator_RowDeletedName="DatabarcodeRowDeleted" msprop:Generator_RowClassName="DatabarcodeRow" msprop:Generator_UserTableName="Databarcode" msprop:Generator_RowEvArgName="DatabarcodeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Serial" msprop:Generator_ColumnVarNameInTable="columnSerial" msprop:Generator_ColumnPropNameInRow="Serial" msprop:Generator_ColumnPropNameInTable="SerialColumn" msprop:Generator_UserColumnName="Serial" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="QrcodeModel" msprop:Generator_TableClassName="QrcodeModelDataTable" msprop:Generator_TableVarName="tableQrcodeModel" msprop:Generator_RowChangedName="QrcodeModelRowChanged" msprop:Generator_TablePropName="QrcodeModel" msprop:Generator_RowDeletingName="QrcodeModelRowDeleting" msprop:Generator_RowChangingName="QrcodeModelRowChanging" msprop:Generator_RowEvHandlerName="QrcodeModelRowChangeEventHandler" msprop:Generator_RowDeletedName="QrcodeModelRowDeleted" msprop:Generator_RowClassName="QrcodeModelRow" msprop:Generator_UserTableName="QrcodeModel" msprop:Generator_RowEvArgName="QrcodeModelRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="imageModel" msprop:Generator_ColumnVarNameInTable="columnimageModel" msprop:Generator_ColumnPropNameInRow="imageModel" msprop:Generator_ColumnPropNameInTable="imageModelColumn" msprop:Generator_UserColumnName="imageModel" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="QrcodeSerial" msprop:Generator_TableClassName="QrcodeSerialDataTable" msprop:Generator_TableVarName="tableQrcodeSerial" msprop:Generator_RowChangedName="QrcodeSerialRowChanged" msprop:Generator_TablePropName="QrcodeSerial" msprop:Generator_RowDeletingName="QrcodeSerialRowDeleting" msprop:Generator_RowChangingName="QrcodeSerialRowChanging" msprop:Generator_RowEvHandlerName="QrcodeSerialRowChangeEventHandler" msprop:Generator_RowDeletedName="QrcodeSerialRowDeleted" msprop:Generator_RowClassName="QrcodeSerialRow" msprop:Generator_UserTableName="QrcodeSerial" msprop:Generator_RowEvArgName="QrcodeSerialRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="imageSerial" msprop:Generator_ColumnVarNameInTable="columnimageSerial" msprop:Generator_ColumnPropNameInRow="imageSerial" msprop:Generator_ColumnPropNameInTable="imageSerialColumn" msprop:Generator_UserColumnName="imageSerial" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="QrcodeSerialSet2" msprop:Generator_TableClassName="QrcodeSerialSet2DataTable" msprop:Generator_TableVarName="tableQrcodeSerialSet2" msprop:Generator_TablePropName="QrcodeSerialSet2" msprop:Generator_RowDeletingName="QrcodeSerialSet2RowDeleting" msprop:Generator_RowChangingName="QrcodeSerialSet2RowChanging" msprop:Generator_RowEvHandlerName="QrcodeSerialSet2RowChangeEventHandler" msprop:Generator_RowDeletedName="QrcodeSerialSet2RowDeleted" msprop:Generator_UserTableName="QrcodeSerialSet2" msprop:Generator_RowChangedName="QrcodeSerialSet2RowChanged" msprop:Generator_RowEvArgName="QrcodeSerialSet2RowChangeEvent" msprop:Generator_RowClassName="QrcodeSerialSet2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="imageSerialSet2" msprop:Generator_ColumnVarNameInTable="columnimageSerialSet2" msprop:Generator_ColumnPropNameInRow="imageSerialSet2" msprop:Generator_ColumnPropNameInTable="imageSerialSet2Column" msprop:Generator_UserColumnName="imageSerialSet2" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="QrcodeSerialSet3" msprop:Generator_TableClassName="QrcodeSerialSet3DataTable" msprop:Generator_TableVarName="tableQrcodeSerialSet3" msprop:Generator_RowChangedName="QrcodeSerialSet3RowChanged" msprop:Generator_TablePropName="QrcodeSerialSet3" msprop:Generator_RowDeletingName="QrcodeSerialSet3RowDeleting" msprop:Generator_RowChangingName="QrcodeSerialSet3RowChanging" msprop:Generator_RowEvHandlerName="QrcodeSerialSet3RowChangeEventHandler" msprop:Generator_RowDeletedName="QrcodeSerialSet3RowDeleted" msprop:Generator_RowClassName="QrcodeSerialSet3Row" msprop:Generator_UserTableName="QrcodeSerialSet3" msprop:Generator_RowEvArgName="QrcodeSerialSet3RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="imageSerialSet3" msdata:Caption="imageSerialSet2" msprop:Generator_ColumnVarNameInTable="columnimageSerialSet3" msprop:Generator_ColumnPropNameInRow="imageSerialSet3" msprop:Generator_ColumnPropNameInTable="imageSerialSet3Column" msprop:Generator_UserColumnName="imageSerialSet3" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="QrcodeSerialSet4" msprop:Generator_TableClassName="QrcodeSerialSet4DataTable" msprop:Generator_TableVarName="tableQrcodeSerialSet4" msprop:Generator_TablePropName="QrcodeSerialSet4" msprop:Generator_RowDeletingName="QrcodeSerialSet4RowDeleting" msprop:Generator_RowChangingName="QrcodeSerialSet4RowChanging" msprop:Generator_RowEvHandlerName="QrcodeSerialSet4RowChangeEventHandler" msprop:Generator_RowDeletedName="QrcodeSerialSet4RowDeleted" msprop:Generator_UserTableName="QrcodeSerialSet4" msprop:Generator_RowChangedName="QrcodeSerialSet4RowChanged" msprop:Generator_RowEvArgName="QrcodeSerialSet4RowChangeEvent" msprop:Generator_RowClassName="QrcodeSerialSet4Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="imageSerialSet4" msdata:Caption="imageSerialSet2" msprop:Generator_ColumnVarNameInTable="columnimageSerialSet4" msprop:Generator_ColumnPropNameInRow="imageSerialSet4" msprop:Generator_ColumnPropNameInTable="imageSerialSet4Column" msprop:Generator_UserColumnName="imageSerialSet4" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
